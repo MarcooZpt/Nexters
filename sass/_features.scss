@@ -1,4 +1,21 @@
 .features{
+
+    @media only screen and (max-width: 37.5em) {
+  .features {
+    grid-column: full-start / full-end;
+    padding: 0 2rem;
+    margin: 8rem 0;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .features {
+    grid-template-columns: 1fr;
+    grid-gap: 4rem;
+  }
+}
+
+
     grid-column: center-start / center-end;
 
     margin: 15rem 0;
@@ -15,6 +32,15 @@
     }
 }
 .feature{
+
+    @media only screen and (max-width: 37.5em) {
+  .feature {
+    float: none;
+    width: 100%;
+    justify-self: center;
+  }
+}
+
 
     float: left;
     width: 33.333333%;
